@@ -1,7 +1,12 @@
 {
   "name": "signalpro-market-updater",
   "version": "1.0.0",
+  "description": "SignalPro Auto Market Update",
+  "main": "marketUpdater.js",
+  "scripts": {
+    "start": "node marketUpdater.js"
+  },
   "dependencies": {
-    "firebase-admin": "^13.0.0"
+    "firebase-admin": "^13.4.0"
   }
 }
