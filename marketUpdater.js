@@ -15,7 +15,7 @@ await db.collection("market").doc("live").set({
 nifty: "25120",
 niftyChange: "+0.52%",
 
-```
+
 bankNifty: "58240",
 bankNiftyChange: "+0.38%",
 
@@ -26,7 +26,7 @@ indiaVix: "12.43",
 indiaVixChange: "-1.20%",
 
 updatedAt: Date.now()
-```
+
 
 });
 
